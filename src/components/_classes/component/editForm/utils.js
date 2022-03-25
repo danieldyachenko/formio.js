@@ -100,8 +100,7 @@ const EditFormUtils = {
             type: 'htmlelement',
             tag: 'div',
             /* eslint-disable prefer-template */
-            content: '<p>Execute custom logic using <a href="http://jsonlogic.com/" target="_blank">JSONLogic</a>.</p>' +
-              '<p>Full <a href="https://lodash.com/docs" target="_blank">Lodash</a> support is provided using an "_" before each operation, such as <code>{"_sum": {var: "data.a"}}</code></p>' +
+            content: '<p>Выполнение пользовательской логики с использованием <a href="http:jsonlogic.com" target="_blank">JSONLogic<a>.<p>' + '<p>Полная <a href="https:lodash.comdocs" target="_blank">Lodash<a> поддерживается с помощью "_" перед каждой операцией, например <code>{"_sum": {var: "data.a"}}<code><p>' +
                exampleJSON
             /* eslint-enable prefer-template */
           },
